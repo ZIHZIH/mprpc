@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/wzh/mprpc/build/src",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcapplication.cpp.o -c /home/wzh/mprpc/src/mprpcapplication.cpp",
+  "file": "/home/wzh/mprpc/src/mprpcapplication.cpp"
+},
+{
+  "directory": "/home/wzh/mprpc/build/src",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcconfig.cpp.o -c /home/wzh/mprpc/src/mprpcconfig.cpp",
+  "file": "/home/wzh/mprpc/src/mprpcconfig.cpp"
+},
+{
+  "directory": "/home/wzh/mprpc/build/src",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/rpcprovider.cpp.o -c /home/wzh/mprpc/src/rpcprovider.cpp",
+  "file": "/home/wzh/mprpc/src/rpcprovider.cpp"
+},
+{
+  "directory": "/home/wzh/mprpc/build/example/callee",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/provider.dir/userservice.cpp.o -c /home/wzh/mprpc/example/callee/userservice.cpp",
+  "file": "/home/wzh/mprpc/example/callee/userservice.cpp"
+},
+{
+  "directory": "/home/wzh/mprpc/build/example/callee",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/wzh/mprpc/example/user.pb.cc",
+  "file": "/home/wzh/mprpc/example/user.pb.cc"
+}
+]
