@@ -1,8 +1,18 @@
 [
 {
   "directory": "/home/wzh/mprpc/build/src",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/logger.cpp.o -c /home/wzh/mprpc/src/logger.cpp",
+  "file": "/home/wzh/mprpc/src/logger.cpp"
+},
+{
+  "directory": "/home/wzh/mprpc/build/src",
   "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcapplication.cpp.o -c /home/wzh/mprpc/src/mprpcapplication.cpp",
   "file": "/home/wzh/mprpc/src/mprpcapplication.cpp"
+},
+{
+  "directory": "/home/wzh/mprpc/build/src",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcchannel.cpp.o -c /home/wzh/mprpc/src/mprpcchannel.cpp",
+  "file": "/home/wzh/mprpc/src/mprpcchannel.cpp"
 },
 {
   "directory": "/home/wzh/mprpc/build/src",
@@ -11,8 +21,23 @@
 },
 {
   "directory": "/home/wzh/mprpc/build/src",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpccontroller.cpp.o -c /home/wzh/mprpc/src/mprpccontroller.cpp",
+  "file": "/home/wzh/mprpc/src/mprpccontroller.cpp"
+},
+{
+  "directory": "/home/wzh/mprpc/build/src",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/wzh/mprpc/src/rpcheader.pb.cc",
+  "file": "/home/wzh/mprpc/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/wzh/mprpc/build/src",
   "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/rpcprovider.cpp.o -c /home/wzh/mprpc/src/rpcprovider.cpp",
   "file": "/home/wzh/mprpc/src/rpcprovider.cpp"
+},
+{
+  "directory": "/home/wzh/mprpc/build/src",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/mprpc.dir/zookeeperutil.cpp.o -c /home/wzh/mprpc/src/zookeeperutil.cpp",
+  "file": "/home/wzh/mprpc/src/zookeeperutil.cpp"
 },
 {
   "directory": "/home/wzh/mprpc/build/example/callee",
@@ -23,5 +48,15 @@
   "directory": "/home/wzh/mprpc/build/example/callee",
   "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/wzh/mprpc/example/user.pb.cc",
   "file": "/home/wzh/mprpc/example/user.pb.cc"
+},
+{
+  "directory": "/home/wzh/mprpc/build/example/caller",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/wzh/mprpc/example/user.pb.cc",
+  "file": "/home/wzh/mprpc/example/user.pb.cc"
+},
+{
+  "directory": "/home/wzh/mprpc/build/example/caller",
+  "command": "/usr/bin/c++   -I/home/wzh/mprpc/src/include -I/home/wzh/mprpc/example  -g   -o CMakeFiles/consumer.dir/calleruserservice.cpp.o -c /home/wzh/mprpc/example/caller/calleruserservice.cpp",
+  "file": "/home/wzh/mprpc/example/caller/calleruserservice.cpp"
 }
 ]

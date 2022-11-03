@@ -2,10 +2,9 @@
 #include <string>
 #include "user.pb.h"
 #include "mprpcapplication.h"
-#include "rpcprovider.h"
 
 class UserService:public fixbug::UserServiceRpc
-{
+{     
 public:
     bool Login(std::string name,std::string pwd){
         std::cout<<"doing Login func"<<std::endl;
@@ -28,10 +27,13 @@ public:
         //写响应
         fixbug::ResultCode *code=response->mutable_result();
         code->set_errcode(0);
-        code->set_errmsg("");
+        code->set_errmsg("default");
 
         response->set_success(login_result);
 
+        //调用成功写个日志
+        LOG_INFO("LOGIN SUCCESS");
+        
         //执行回调， response的序列化和网络传输
         done->Run();
 

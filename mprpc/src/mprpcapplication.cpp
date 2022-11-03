@@ -1,7 +1,5 @@
 #include"mprpcapplication.h"
-#include <iostream>
-#include<unistd.h>
-#include<string>
+
 
 MprpcConfig MprpcApplication::m_config;
 

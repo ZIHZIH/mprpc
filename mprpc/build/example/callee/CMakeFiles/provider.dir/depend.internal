@@ -6,7 +6,11 @@ example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
  /home/wzh/mprpc/example/user.pb.h
 example/callee/CMakeFiles/provider.dir/userservice.cpp.o
  ../example/user.pb.h
+ ../src/include/lockqueue.h
+ ../src/include/logger.h
  ../src/include/mprpcapplication.h
  ../src/include/mprpcconfig.h
+ ../src/include/rpcheader.pb.h
  ../src/include/rpcprovider.h
+ ../src/include/zookeeperutil.h
  /home/wzh/mprpc/example/callee/userservice.cpp

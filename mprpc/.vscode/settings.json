@@ -55,6 +55,7 @@
         "complex": "cpp",
         "list": "cpp",
         "cinttypes": "cpp",
-        "typeindex": "cpp"
+        "typeindex": "cpp",
+        "*.inc": "cpp"
     }
 }

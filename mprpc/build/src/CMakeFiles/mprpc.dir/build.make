@@ -57,9 +57,33 @@ include src/CMakeFiles/mprpc.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/mprpc.dir/flags.make
 
+src/CMakeFiles/mprpc.dir/logger.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/logger.cpp.o: ../src/logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mprpc.dir/logger.cpp.o"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/logger.cpp.o -c /home/wzh/mprpc/src/logger.cpp
+
+src/CMakeFiles/mprpc.dir/logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/logger.cpp.i"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wzh/mprpc/src/logger.cpp > CMakeFiles/mprpc.dir/logger.cpp.i
+
+src/CMakeFiles/mprpc.dir/logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/logger.cpp.s"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzh/mprpc/src/logger.cpp -o CMakeFiles/mprpc.dir/logger.cpp.s
+
+src/CMakeFiles/mprpc.dir/logger.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mprpc.dir/logger.cpp.o.requires
+
+src/CMakeFiles/mprpc.dir/logger.cpp.o.provides: src/CMakeFiles/mprpc.dir/logger.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/logger.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mprpc.dir/logger.cpp.o.provides
+
+src/CMakeFiles/mprpc.dir/logger.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/logger.cpp.o
+
+
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o: ../src/mprpcapplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o"
 	cd /home/wzh/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/mprpcapplication.cpp.o -c /home/wzh/mprpc/src/mprpcapplication.cpp
 
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.i: cmake_force
@@ -81,9 +105,33 @@ src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o.provides: src/CMakeFiles/mprpc.d
 src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
 
 
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o: ../src/mprpcchannel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/mprpcchannel.cpp.o -c /home/wzh/mprpc/src/mprpcchannel.cpp
+
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpcchannel.cpp.i"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wzh/mprpc/src/mprpcchannel.cpp > CMakeFiles/mprpc.dir/mprpcchannel.cpp.i
+
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpcchannel.cpp.s"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzh/mprpc/src/mprpcchannel.cpp -o CMakeFiles/mprpc.dir/mprpcchannel.cpp.s
+
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.requires
+
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.provides: src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.provides
+
+src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o
+
+
 src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o: ../src/mprpcconfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o"
 	cd /home/wzh/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/mprpcconfig.cpp.o -c /home/wzh/mprpc/src/mprpcconfig.cpp
 
 src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.i: cmake_force
@@ -105,9 +153,57 @@ src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.provides: src/CMakeFiles/mprpc.dir/mp
 src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o
 
 
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o: ../src/mprpccontroller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/mprpccontroller.cpp.o -c /home/wzh/mprpc/src/mprpccontroller.cpp
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/mprpccontroller.cpp.i"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wzh/mprpc/src/mprpccontroller.cpp > CMakeFiles/mprpc.dir/mprpccontroller.cpp.i
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/mprpccontroller.cpp.s"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzh/mprpc/src/mprpccontroller.cpp -o CMakeFiles/mprpc.dir/mprpccontroller.cpp.s
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.requires
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.provides: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.provides
+
+src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o
+
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: ../src/rpcheader.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/wzh/mprpc/src/rpcheader.pb.cc
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/rpcheader.pb.cc.i"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wzh/mprpc/src/rpcheader.pb.cc > CMakeFiles/mprpc.dir/rpcheader.pb.cc.i
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/rpcheader.pb.cc.s"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzh/mprpc/src/rpcheader.pb.cc -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.requires:
+
+.PHONY : src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.requires
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.provides: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.requires
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.provides.build
+.PHONY : src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.provides
+
+src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.provides.build: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
+
+
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o: ../src/rpcprovider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o"
 	cd /home/wzh/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/rpcprovider.cpp.o -c /home/wzh/mprpc/src/rpcprovider.cpp
 
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.i: cmake_force
@@ -129,21 +225,55 @@ src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o.provides: src/CMakeFiles/mprpc.dir/rp
 src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
 
 
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o: src/CMakeFiles/mprpc.dir/flags.make
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o: ../src/zookeeperutil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mprpc.dir/zookeeperutil.cpp.o -c /home/wzh/mprpc/src/zookeeperutil.cpp
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/zookeeperutil.cpp.i"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wzh/mprpc/src/zookeeperutil.cpp > CMakeFiles/mprpc.dir/zookeeperutil.cpp.i
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/zookeeperutil.cpp.s"
+	cd /home/wzh/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wzh/mprpc/src/zookeeperutil.cpp -o CMakeFiles/mprpc.dir/zookeeperutil.cpp.s
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.requires
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.provides: src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.provides.build
+.PHONY : src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.provides
+
+src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.provides.build: src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o
+
+
 # Object files for target mprpc
 mprpc_OBJECTS = \
+"CMakeFiles/mprpc.dir/logger.cpp.o" \
 "CMakeFiles/mprpc.dir/mprpcapplication.cpp.o" \
+"CMakeFiles/mprpc.dir/mprpcchannel.cpp.o" \
 "CMakeFiles/mprpc.dir/mprpcconfig.cpp.o" \
-"CMakeFiles/mprpc.dir/rpcprovider.cpp.o"
+"CMakeFiles/mprpc.dir/mprpccontroller.cpp.o" \
+"CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" \
+"CMakeFiles/mprpc.dir/rpcprovider.cpp.o" \
+"CMakeFiles/mprpc.dir/zookeeperutil.cpp.o"
 
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
 
+../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/logger.cpp.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o
+../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o
+../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o
+../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
+../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/build.make
 ../lib/libmprpc.a: src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../lib/libmprpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wzh/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library ../../lib/libmprpc.a"
 	cd /home/wzh/mprpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/mprpc.dir/cmake_clean_target.cmake
 	cd /home/wzh/mprpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 
@@ -152,9 +282,14 @@ src/CMakeFiles/mprpc.dir/build: ../lib/libmprpc.a
 
 .PHONY : src/CMakeFiles/mprpc.dir/build
 
+src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/logger.cpp.o.requires
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o.requires
+src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpcchannel.cpp.o.requires
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.requires
+src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/mprpccontroller.cpp.o.requires
+src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.requires
 src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o.requires
+src/CMakeFiles/mprpc.dir/requires: src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o.requires
 
 .PHONY : src/CMakeFiles/mprpc.dir/requires
 

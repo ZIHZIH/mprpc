@@ -1,6 +1,9 @@
 #pragma once
 
 #include<unordered_map>
+#include<iostream>
+#include<stdio.h>
+
 //框架读取配置文件类
 class MprpcConfig 
 {

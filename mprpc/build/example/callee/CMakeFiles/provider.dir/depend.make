@@ -5,8 +5,12 @@ example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: ../example/user.pb.cc
 example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o: ../example/user.pb.h
 
 example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../example/user.pb.h
+example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../src/include/lockqueue.h
+example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../src/include/logger.h
 example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../src/include/mprpcapplication.h
 example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../src/include/mprpcconfig.h
+example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../src/include/rpcheader.pb.h
 example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../src/include/rpcprovider.h
+example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../src/include/zookeeperutil.h
 example/callee/CMakeFiles/provider.dir/userservice.cpp.o: ../example/callee/userservice.cpp
 

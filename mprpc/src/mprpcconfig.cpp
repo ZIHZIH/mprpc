@@ -1,6 +1,5 @@
 #include"mprpcconfig.h"
-#include<iostream>
-#include<stdio.h>
+
 
 MprpcConfig::MprpcConfig(/* args */){}
 MprpcConfig::~MprpcConfig(){}
@@ -34,6 +33,7 @@ MprpcConfig::~MprpcConfig(){}
             std::string value;
             key=temp.substr(0,index);
             value=temp.substr(index+1,temp.size()-(index+2));
+            if(temp.find('\n')==-1)value=temp.substr(index+1,temp.size()-(index+1));
             unmap.insert({key,value}); 
         }
     }
